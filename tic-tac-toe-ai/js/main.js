@@ -94,7 +94,7 @@ function make_move(blockid){
     if (blockstates[num]!=0)
         return;
     if(chance==1){
-        block.style.background='url(./../img/cross.svg)';
+        block.style.background='url(https://kuldeep800singh.github.io/Small-Projects/tic-tac-toe-ai/img/cross.svg)';
         chance=2;
         blockstates[num]=1;
     }
@@ -208,7 +208,7 @@ function make_ai_move(){
     
     let blockid = 'block'+change.toString();
     let block = document.getElementById(blockid+'-btn');
-    block.style.background='url(./../img/circle.svg)';
+    block.style.background='url(https://kuldeep800singh.github.io/Small-Projects/tic-tac-toe-ai/img/circle.svg)';
     block.style.backgroundRepeat = 'no-repeat';
     block.style.backgroundSize = '80%';
     block.style.backgroundPosition = 'center';
